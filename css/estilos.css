@@ -1,0 +1,316 @@
+@font-face{ 
+  font-family: "Antenna";
+  src: url("../fontes/Antenna-Regular.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Antenna";
+}
+
+body {
+    background-image: url("../imagens/fundo_Prancheta.png");
+    background-size: 100%;
+}
+
+header {
+  width: 100%;
+   display: inline-block;
+
+} 
+        
+img {
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+}
+
+nav {
+  display: inline-block;
+}
+   
+p {
+    color: #000000;
+    font-size: 20px;
+}   
+   
+ 
+ a {
+     width: 5%;
+     
+ }
+
+#Servicos {
+   width: 30%;
+   height: 50vh;
+   margin-left: 13%;
+   float:left;
+   display: inline-block;
+}
+
+
+#Serv1 {
+    display: inline-block;
+    margin-top: 7.5%;
+}
+
+#txtserv1 {
+    margin-left: 5%;
+    float: left;
+    width: 60%;
+}
+
+ #imgserv1 {
+    float: left;
+    width: 26%;
+    height: 17.5vh;
+    border-radius: 10%;
+    border-bottom: 10px solid #0075BF;
+    border-left: 10px solid #0075BF;
+}
+
+#imgt {
+    display: inline-block;
+    width: 110%;
+    height: 105%;
+    border-radius: 10%;
+    margin-top: -2%;
+    margin-left: -3%;
+}
+   
+#Serv2 {
+    margin-top: 5.5%;
+   display: inline-block;
+}
+
+#txtserv2 {
+    margin-left: 5%;
+    margin-top: -2%;
+    float: left;
+    width: 60%;
+}
+
+#imgserv2 {
+    float: left;
+    width: 26%;
+    height: 17.5vh;
+    border-radius: 10%;
+    border-bottom: 10px solid #C6C6C6;
+    border-left: 10px solid #C6C6C6;
+}
+
+#imga {
+    display: inline-block;
+    width: 110%;
+    height: 105%;
+    border-radius: 10%;
+    margin-top: -2%;
+    margin-left: -3%;
+}
+   
+#Serv3 {
+    margin-top: 5.5%;
+   display: inline-block;
+}
+
+#txtserv3 {
+    margin-left: 5%;
+    float: left;
+    width: 60%;
+}
+
+#imgserv3 {
+    float: left;
+    width: 26%;
+    height: 17.5vh;
+    border-radius: 10%;
+    border-bottom: 10px solid #BE1622;
+    border-left: 10px solid #BE1622;
+}
+
+#imge {
+    display: inline-block;
+    width: 110%;
+    height: 105%;
+    border-radius: 10%;
+    margin-top: -2%;
+    margin-left: -3%;
+}
+   
+.titulo {
+   font-size: 1.7vw;
+   letter-spacing: -1px;
+}
+
+.texto {
+   font-size: 0.8vw;
+}
+
+#Logo {
+   width: 10%;
+   height: auto;
+   margin-left: 13%;
+   float:left;
+}
+
+#contato {
+   margin-left: 30%;
+   float:left;
+   padding-top: 7%;
+   font-size: 2vh;
+}
+
+#linkedin {
+   padding: 0;
+   width: 2.6%;
+   height: auto;
+}
+
+#linkedin:hover {
+  background-color: #AAAAFF;
+  border-radius: 30%;
+}
+
+#contatos {
+  padding-top: 5.5%;
+}
+
+#insta {
+  margin-left: 28%;
+}
+
+#instagram {
+   padding: 0;
+   width: 2.5%;
+   height: auto;
+   margin-left: 5%;
+}
+
+#instagram:hover {
+  background-color: #AAAAFF;
+  border-radius: 30%;
+}
+
+#maps {
+   padding: 0;
+   width: 2.2%;
+   height: auto;
+   vertical-align: bottom; 
+}
+
+#maps:hover {
+  background-color: #AAAAFF;
+  border-radius: 30%;
+}
+
+#whatss {
+   padding: 0;
+   width: 10%;
+   height: auto;
+   float: bottom;
+   margin-bottom: 10%;
+   margin-left: 4%;
+   display:inline-block;
+}
+
+#whats {
+   padding: 0;
+   width: 100%;
+   height: auto;
+}
+
+#whats:hover {
+  background-color: #AAAAFF;
+}
+
+#corpo {
+   display: inline-block;
+}
+
+#container {
+  width: 44%;
+  height: auto;
+  float: left;
+  margin-top: -1.5%;
+  display: inline-block;
+}
+
+#containers{
+   width: 85%;
+   height: auto;
+}
+
+#clicks {
+  font-size: 0.8vw;
+  text-align: center;
+  display: none;
+}
+
+#leitura {
+  font-size: 0.8vw;
+  text-align: center;
+}
+
+#caixa{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+#carrinho{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+#caminhao{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+#trem{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+#navio{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+#aviao{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+
+.segmento {
+  vertical-align: bottom;
+  width: 8%;
+  display: inline-block;
+}
+
+#segmentos {
+  margin-left: 28%;
+  margin-top: -8%;
+}  
+
+#segmentosm {
+  display: none;
+}
+
+#whatsapp {
+  display: none;
+}
+
